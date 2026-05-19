@@ -1,1 +1,1 @@
-[MALVA Wiki](malva-docs.github.io/wiki/)
+[MALVA Wiki](malva-docs.github.io/Wiki/)
