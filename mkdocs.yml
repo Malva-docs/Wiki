@@ -1,5 +1,4 @@
 site_name: Malva Wiki
-site_url: https://malva-docs.github.io/Wiki/
 repo_url: https://github.com/malva-docs/wiki/wiki
 edit_uri_template: '{path_noext}/_edit'  # https://www.mkdocs.org/user-guide/configuration/#edit_uri_template
 hooks:
