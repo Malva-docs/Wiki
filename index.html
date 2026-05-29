@@ -1,0 +1,2067 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Malva Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Ubuntu Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="custom.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guide-utilisateur-malva" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Malva Wiki" class="md-header__button md-logo" aria-label="Malva Wiki" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Malva Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guide Utilisateur — MALVA
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="white" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/malva-docs/wiki/wiki" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Malva Wiki" class="md-nav__button md-logo" aria-label="Malva Wiki" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    Malva Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/malva-docs/wiki/wiki" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide Utilisateur — MALVA
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide Utilisateur — MALVA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-des-matieres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table des matières
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-presentation-generale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Présentation générale
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-roles-et-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Rôles et permissions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Rôles et permissions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ce-que-chaque-role-peut-faire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ce que chaque rôle peut faire
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ce que chaque rôle peut faire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#utilisateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Utilisateur
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#admin-de-laboratoire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Admin de laboratoire
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#super-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Super Admin
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-se-connecter-et-acceder-a-lapplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Se connecter et accéder à l'application
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-parcourir-linventaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Parcourir l'inventaire
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Parcourir l&#39;inventaire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#catalogue-dequipements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Catalogue d'équipements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etats-dun-equipement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        États d'un équipement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verifier-la-disponibilite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vérifier la disponibilité
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hierarchie-du-catalogue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hiérarchie du catalogue
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-reservations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Réservations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Réservations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-creer-une-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Créer une réservation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-etats-dune-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 États d'une réservation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2 États d&#39;une réservation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etat-global-de-la-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        État global de la réservation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etat-de-chaque-equipement-dans-la-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        État de chaque équipement dans la réservation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-transitions-automatiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Transitions automatiques
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-retourner-un-equipement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Retourner un équipement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-annuler-une-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 Annuler une réservation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-demander-une-prolongation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Demander une prolongation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#57-actions-de-ladmin-sur-les-reservations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7 Actions de l'admin sur les réservations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Maintenance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Maintenance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-planifier-une-maintenance-admin-uniquement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Planifier une maintenance (Admin uniquement)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-modifier-une-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Modifier une maintenance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-terminer-une-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Terminer une maintenance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-visibilite-de-la-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 Visibilité de la maintenance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-gestion-des-utilisateurs-admin-uniquement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Gestion des utilisateurs (Admin uniquement)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Gestion des utilisateurs (Admin uniquement)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajouter-un-membre-a-un-laboratoire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ajouter un membre à un laboratoire
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribuer-ou-retirer-des-droits-dadministration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attribuer ou retirer des droits d'administration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desactiver-un-compte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Désactiver un compte
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-import-et-export-csv-admin-uniquement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Import et export CSV (Admin uniquement)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Import et export CSV (Admin uniquement)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exporter-linventaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exporter l'inventaire
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importer-des-equipements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importer des équipements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Importer des équipements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regles-dimport" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Règles d'import
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-codes-qr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Codes QR
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Codes QR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fonctionnalites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fonctionnalités
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-notifications-par-e-mail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Notifications par e-mail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#annexe-glossaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Annexe — Glossaire
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-des-matieres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table des matières
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-presentation-generale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Présentation générale
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-roles-et-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Rôles et permissions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Rôles et permissions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ce-que-chaque-role-peut-faire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ce que chaque rôle peut faire
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ce que chaque rôle peut faire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#utilisateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Utilisateur
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#admin-de-laboratoire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Admin de laboratoire
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#super-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Super Admin
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-se-connecter-et-acceder-a-lapplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Se connecter et accéder à l'application
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-parcourir-linventaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Parcourir l'inventaire
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Parcourir l&#39;inventaire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#catalogue-dequipements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Catalogue d'équipements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etats-dun-equipement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        États d'un équipement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verifier-la-disponibilite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vérifier la disponibilité
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hierarchie-du-catalogue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hiérarchie du catalogue
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-reservations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Réservations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Réservations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-creer-une-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Créer une réservation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-etats-dune-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 États d'une réservation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2 États d&#39;une réservation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etat-global-de-la-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        État global de la réservation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etat-de-chaque-equipement-dans-la-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        État de chaque équipement dans la réservation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-transitions-automatiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Transitions automatiques
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-retourner-un-equipement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Retourner un équipement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-annuler-une-reservation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 Annuler une réservation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-demander-une-prolongation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Demander une prolongation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#57-actions-de-ladmin-sur-les-reservations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7 Actions de l'admin sur les réservations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Maintenance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Maintenance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-planifier-une-maintenance-admin-uniquement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Planifier une maintenance (Admin uniquement)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-modifier-une-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Modifier une maintenance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-terminer-une-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Terminer une maintenance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-visibilite-de-la-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 Visibilité de la maintenance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-gestion-des-utilisateurs-admin-uniquement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Gestion des utilisateurs (Admin uniquement)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Gestion des utilisateurs (Admin uniquement)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajouter-un-membre-a-un-laboratoire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ajouter un membre à un laboratoire
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribuer-ou-retirer-des-droits-dadministration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attribuer ou retirer des droits d'administration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desactiver-un-compte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Désactiver un compte
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-import-et-export-csv-admin-uniquement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Import et export CSV (Admin uniquement)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Import et export CSV (Admin uniquement)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exporter-linventaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exporter l'inventaire
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importer-des-equipements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importer des équipements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Importer des équipements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regles-dimport" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Règles d'import
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-codes-qr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Codes QR
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Codes QR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fonctionnalites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fonctionnalités
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-notifications-par-e-mail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Notifications par e-mail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#annexe-glossaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Annexe — Glossaire
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/malva-docs/wiki/wiki/Home/_edit" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="guide-utilisateur-malva">Guide Utilisateur — MALVA</h1>
+<h2 id="table-des-matieres">Table des matières</h2>
+<ol>
+<li><a href="#1-présentation-générale">Présentation générale</a></li>
+<li><a href="#2-rôles-et-permissions">Rôles et permissions</a></li>
+<li><a href="#3-se-connecter-et-accéder-à-lapplication">Se connecter et accéder à l'application</a></li>
+<li><a href="#4-parcourir-linventaire">Parcourir l'inventaire</a></li>
+<li><a href="#5-réservations">Réservations</a></li>
+<li><a href="#6-maintenance">Maintenance</a></li>
+<li><a href="#7-gestion-des-utilisateurs">Gestion des utilisateurs</a></li>
+<li><a href="#8-import-et-export-csv">Import et export CSV</a></li>
+<li><a href="#9-codes-qr">Codes QR</a></li>
+<li><a href="#10-notifications-par-e-mail">Notifications par e-mail</a></li>
+</ol>
+<hr />
+<h2 id="1-presentation-generale">1. Présentation générale</h2>
+<p><strong>Malva</strong> est une application web de gestion d'inventaire et de réservation d'équipements de laboratoire. Elle permet aux membres de consulter le matériel disponible dans différents laboratoires, de le réserver pour des périodes définies, et aux responsables de suivre l'état du matériel, d'approuver les demandes, et de planifier les opérations de maintenance.</p>
+<hr />
+<h2 id="2-roles-et-permissions">2. Rôles et permissions</h2>
+<p>L'application distingue trois niveaux d'accès :</p>
+<table>
+<thead>
+<tr>
+<th>Rôle</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Utilisateur</strong></td>
+<td>Peut consulter l'inventaire et gérer ses propres réservations</td>
+</tr>
+<tr>
+<td><strong>Admin de laboratoire</strong></td>
+<td>Gère un ou plusieurs labos : inventaire, réservations, utilisateurs</td>
+</tr>
+<tr>
+<td><strong>Super Admin</strong></td>
+<td>Accès complet à tous les laboratoires et à la configuration système</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ce-que-chaque-role-peut-faire">Ce que chaque rôle peut faire</h3>
+<h4 id="utilisateur">Utilisateur</h4>
+<ul>
+<li>Consulter le catalogue d'équipements</li>
+<li>Vérifier la disponibilité d'un équipement via le calendrier</li>
+<li>Ajouter des équipements au panier et créer une réservation</li>
+<li>Déclarer le retour d'un équipement</li>
+<li>Demander une prolongation de réservation</li>
+<li>Annuler une réservation en attente</li>
+</ul>
+<h4 id="admin-de-laboratoire">Admin de laboratoire</h4>
+<p>Tout ce que fait l'utilisateur, plus :
+- Voir le tableau de bord de son labo (disponibilité, réservations en cours)
+- Créer, modifier et supprimer des équipements dans son labo
+- Approuver ou rejeter les réservations nécessitant une confirmation
+- Valider les retours d'équipements
+- Approuver ou refuser les demandes de prolongation
+- Planifier et terminer des maintenances
+- Gérer les membres de son labo
+- Importer et exporter des données via CSV
+- Consulter les réservations de son laboratoire via un code QR</p>
+<h4 id="super-admin">Super Admin</h4>
+<p>Tout ce que fait l'admin, plus :
+- Accéder à tous les laboratoires
+- Créer et supprimer des laboratoires
+- Gérer tous les utilisateurs (promouvoir/rétrograder)
+- Gérer les codes QR de tous les équipements
+- Importer/exporter pour n'importe quel labo
+- Modifier ou ajouter les codes de N° Inventaire HES</p>
+<hr />
+<h2 id="3-se-connecter-et-acceder-a-lapplication">3. Se connecter et accéder à l'application</h2>
+<ol>
+<li>Rendez-vous sur <a href="https://vlenplabinventoryprd.hevs.ch">l'URL</a> de l'application. </li>
+<li>Connectez-vous avec votre adresse e-mail et votre mot de passe Microsoft (HES-SO).</li>
+<li>Une <strong>vérification de l'adresse e-mail</strong> est requise avant d'accéder au tableau de bord: un admin de laboratoire doit vous rajouter dans son laboratoire.</li>
+<li>Selon votre rôle, vous accéderez directement à la vue utilisateur ou à la vue administrative.</li>
+</ol>
+<blockquote>
+<p><strong>Note :</strong> Si votre compte a été désactivé par un administrateur, vous ne pourrez pas vous connecter. Contactez votre responsable de labo.</p>
+</blockquote>
+<hr />
+<h2 id="4-parcourir-linventaire">4. Parcourir l'inventaire</h2>
+<h3 id="catalogue-dequipements">Catalogue d'équipements</h3>
+<p>Le catalogue présente l'ensemble des équipements accessibles selon votre appartenance aux laboratoires. Chaque fiche équipement affiche :
+<img alt="article_row" src="https://github.com/user-attachments/assets/44a7e920-39ae-43be-b035-97b3b7474e82" /></p>
+<ul>
+<li>Le nom, le fabricant et le modèle</li>
+<li>La catégorie (ex. Capteurs &gt; Température &gt; RTD Platine 100)</li>
+<li>L'état actuel (voir tableau ci-dessous pour la définition de ces statuts)</li>
+<li>La disponibilité pour la période sélectionnée
+<img alt="article_detail" src="https://github.com/user-attachments/assets/4ea832b9-bb53-4343-8cb0-a202651d2e7c" /></li>
+</ul>
+<h3 id="etats-dun-equipement">États d'un équipement</h3>
+<table>
+<thead>
+<tr>
+<th>Statut</th>
+<th>Couleur</th>
+<th>Signification</th>
+<th>Images</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Disponible</strong></td>
+<td>🟢 Vert</td>
+<td>Peut être réservé</td>
+<td><img height="175" alt="status_available" src="https://github.com/user-attachments/assets/c5b61320-5c90-4a56-b344-d3f0dc398a17" /></td>
+</tr>
+<tr>
+<td><strong>À vérifier</strong></td>
+<td>🟡 Jaune</td>
+<td>Nécessite une inspection avant usage</td>
+<td><img height="175" alt="status_to_check" src="https://github.com/user-attachments/assets/cff2207e-fe2d-477e-8ac3-bc22c873326b" /></td>
+</tr>
+<tr>
+<td><strong>Indisponible</strong></td>
+<td>🔴 Rouge</td>
+<td>Momentanément hors service</td>
+<td><img height="175" alt="status_under_maintenance" src="https://github.com/user-attachments/assets/0b057605-78ad-4fd5-be54-746f816a4fce" /></td>
+</tr>
+<tr>
+<td><strong>Défectueux</strong></td>
+<td>🟡 Jaune</td>
+<td>Non fonctionnel</td>
+<td><img height="175" alt="status_broken" src="https://github.com/user-attachments/assets/c89cccde-cae2-4bef-b44b-42f1b355548b" /></td>
+</tr>
+<tr>
+<td><strong>En maintenance</strong></td>
+<td>⚪ Gris</td>
+<td>Maintenance planifiée en cours</td>
+<td><img height="175" alt="status_under_maintenance" src="https://github.com/user-attachments/assets/36f7252c-2a3f-47dc-bc63-4c99b25ad808" /></td>
+</tr>
+<tr>
+<td><strong>Autre</strong></td>
+<td>🔵 Bleu</td>
+<td>Statut particulier, contacter l'admin</td>
+<td><img height="175" alt="status_other" src="https://github.com/user-attachments/assets/20ee46b6-db6e-40c8-b9da-5e7b75bae036" /></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>À noter :</strong> À vérifier et En panne partagent la même couleur jaune dans l'interface.</p>
+</blockquote>
+<h3 id="verifier-la-disponibilite">Vérifier la disponibilité</h3>
+<p>Cliquez sur un équipement pour ouvrir son calendrier de disponibilité. 
+<img alt="article_action" src="https://github.com/user-attachments/assets/cc05bc80-3f94-4b36-a89d-e06c251325d8" />
+<img alt="article_action_calendar" src="https://github.com/user-attachments/assets/89528346-0cea-4a0a-ba1d-ae4e31090297" /></p>
+<p>Le calendrier met en évidence les périodes déjà réservées ou bloquées par une maintenance.
+<img alt="article_calendar" src="https://github.com/user-attachments/assets/cf0c15d3-59e0-4b85-976a-fcdae2d9e903" /></p>
+<p>Un équipement est <strong>indisponible</strong> à une date si :
+- Son état est autre que « Disponible »
+- Une maintenance est active sur cette période
+- Une réservation existante (confirmée, en cours ou en attente) couvre ces dates</p>
+<h3 id="hierarchie-du-catalogue">Hiérarchie du catalogue</h3>
+<p>Les équipements sont organisés ainsi :</p>
+<pre><code>Catégorie
+  └── Sous-catégorie
+        └── Type
+              └── Article (modèle produit)
+                    └── Unité (exemplaire physique avec numéro d'inventaire)
+</code></pre>
+<hr />
+<h2 id="5-reservations">5. Réservations</h2>
+<h3 id="51-creer-une-reservation">5.1 Créer une réservation</h3>
+<ol>
+<li>Dans le catalogue, sélectionnez les dates de début et de fin souhaitées.</li>
+<li>
+<p>Cliquez sur <strong>Ajouter au panier</strong> pour chaque équipement voulu.
+   <img alt="select_article" src="https://github.com/user-attachments/assets/9d099644-4cf6-4ae0-8c7d-cd487392a55d" />
+   <img alt="add_to_card" src="https://github.com/user-attachments/assets/73c46707-f55d-48aa-9c4b-55876b62d821" /></p>
+</li>
+<li>
+<p>Accédez au <strong>panier</strong> et vérifiez votre sélection.</p>
+</li>
+<li>
+<p>Renseignez le nom du projet et les informations complémentaires demandées.
+   <img alt="reservation" src="https://github.com/user-attachments/assets/59a01b88-cde1-436e-8116-9bbc9c1c3ca5" /></p>
+</li>
+<li>
+<p>Cliquez sur <strong>Confirmer la réservation</strong>.</p>
+</li>
+</ol>
+<p>Une fois créée, vous recevez un e-mail de confirmation. L'état de chaque équipement réservé évolue automatiquement selon le calendrier (voir section 5.3).</p>
+<blockquote>
+<p><strong>Confirmation obligatoire :</strong> Certains équipements nécessitent l'approbation d'un admin avant d'être réservés. 
+<img alt="waiting_confirmation" src="https://github.com/user-attachments/assets/194b25a4-3c43-4b88-a408-3a065d991d17" />
+Dans ce cas, la réservation passe en état « En attente de confirmation » jusqu'à la décision de l'admin.
+<img alt="confirm_reservation" src="https://github.com/user-attachments/assets/106405d5-00ec-4fdc-a6f0-ebfd6c5f03a7" /></p>
+</blockquote>
+<h3 id="52-etats-dune-reservation">5.2 États d'une réservation</h3>
+<h4 id="etat-global-de-la-reservation">État global de la réservation</h4>
+<table>
+<thead>
+<tr>
+<th>État</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>En attente de confirmation</strong></td>
+<td>Un ou plusieurs équipements attendent l'approbation d'un admin</td>
+</tr>
+<tr>
+<td><strong>Confirmée</strong></td>
+<td>Tous les équipements sont approuvés, la réservation n'a pas encore commencé</td>
+</tr>
+<tr>
+<td><strong>En cours</strong></td>
+<td>La période de réservation a démarré</td>
+</tr>
+<tr>
+<td><strong>Équipements non retournés</strong></td>
+<td>La date de fin est passée et certains équipements n'ont pas été rendus</td>
+</tr>
+<tr>
+<td><strong>Retour non confirmé</strong></td>
+<td>Les équipements ont été déclarés retournés, en attente de validation admin</td>
+</tr>
+<tr>
+<td><strong>Prolongation demandée</strong></td>
+<td>Une demande d'extension de dates est en cours d'examen</td>
+</tr>
+<tr>
+<td><strong>Terminée</strong></td>
+<td>Tous les équipements ont été retournés et confirmés</td>
+</tr>
+<tr>
+<td><strong>Rejetée</strong></td>
+<td>La réservation a été refusée par un admin</td>
+</tr>
+</tbody>
+</table>
+<h4 id="etat-de-chaque-equipement-dans-la-reservation">État de chaque équipement dans la réservation</h4>
+<table>
+<thead>
+<tr>
+<th>État</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>En attente</strong></td>
+<td>Demande soumise, en attente d'approbation (si confirmation requise)</td>
+</tr>
+<tr>
+<td><strong>Accepté</strong></td>
+<td>Approuvé, la date de début n'est pas encore atteinte</td>
+</tr>
+<tr>
+<td><strong>En cours</strong></td>
+<td>Période active</td>
+</tr>
+<tr>
+<td><strong>Non retourné</strong></td>
+<td>Date de fin dépassée sans retour déclaré</td>
+</tr>
+<tr>
+<td><strong>Retour en attente</strong></td>
+<td>Utilisateur a déclaré le retour, admin doit valider</td>
+</tr>
+<tr>
+<td><strong>Terminé</strong></td>
+<td>Retour confirmé</td>
+</tr>
+<tr>
+<td><strong>Annulé</strong></td>
+<td>Annulé par l'utilisateur</td>
+</tr>
+<tr>
+<td><strong>Rejeté</strong></td>
+<td>Refusé par un admin</td>
+</tr>
+</tbody>
+</table>
+<h3 id="53-transitions-automatiques">5.3 Transitions automatiques</h3>
+<p>Chaque nuit, l'application met à jour automatiquement les états selon les règles suivantes :</p>
+<pre><code>Accepté  ──────────────────► En cours      (quand la date de début est atteinte)
+En cours / Accepté  ────────► Non retourné  (quand la date de fin est dépassée)
+En attente ─────────────────► Rejeté        (si la date de fin passe sans approbation)
+</code></pre>
+<h3 id="54-retourner-un-equipement">5.4 Retourner un équipement</h3>
+<ol>
+<li>
+<p>Rendez-vous dans <strong>Mes réservations</strong>.
+   <img alt="return_tab" src="https://github.com/user-attachments/assets/461f89f7-5bc8-4966-a3f5-1cf84675485d" /></p>
+</li>
+<li>
+<p>Trouvez la réservation concernée et cliquez sur <strong>Retourner</strong> pour l'équipement souhaité.
+   <img alt="search_active_booking" src="https://github.com/user-attachments/assets/1558c671-8bb6-4001-b993-13d0ce8b5f40" />
+   <img alt="booking_running" src="https://github.com/user-attachments/assets/7672b91c-02ee-4b11-9dab-e7647dff4eb7" />
+   <img alt="return_btn" src="https://github.com/user-attachments/assets/fcb0ddb7-b0bd-4260-8c28-9da90cb92e46" /></p>
+</li>
+<li>
+<p>Si l'équipement nécessite une confirmation de retour, il passe en état <strong>Retour en attente</strong> jusqu'à validation par un admin.
+   <img alt="return_to_confirm" src="https://github.com/user-attachments/assets/46e096b8-e745-4c3a-a1d3-9201efba74ce" />
+   <img alt="confirm_return" src="https://github.com/user-attachments/assets/6cd94e0d-7cf6-48cd-8a6e-0e880e199d3a" /></p>
+</li>
+<li>
+<p>Sinon, le retour est immédiatement enregistré comme <strong>Terminé</strong>.</p>
+</li>
+</ol>
+<h3 id="55-annuler-une-reservation">5.5 Annuler une réservation</h3>
+<p>Vous pouvez annuler un équipement réservé s'il est encore dans un état annulable (en attente ou accepté). Allez dans <strong>Mes réservations</strong> et cliquez sur <strong>Annuler</strong>.
+   <img alt="cancel_btn" src="https://github.com/user-attachments/assets/27961cf6-d39c-48dc-8f44-88a188455be6" /></p>
+<h3 id="56-demander-une-prolongation">5.6 Demander une prolongation</h3>
+<p>Si vous avez besoin de garder un équipement plus longtemps :</p>
+<ol>
+<li>Allez dans <strong>Mes réservations</strong>.</li>
+<li>
+<p>Cliquez sur <strong>Prolonger</strong> sur la réservation concernée.
+   <img alt="extend_option_btn" src="https://github.com/user-attachments/assets/b536e2b0-d446-4911-9033-772092a4187b" /></p>
+</li>
+<li>
+<p>Indiquez la nouvelle date de fin souhaitée.
+   <img alt="extend_btn" src="https://github.com/user-attachments/assets/492d311a-63ac-4f67-a092-d73578fd5a1c" /></p>
+</li>
+<li>
+<p>Un admin examine votre demande et l'approuve ou la refuse.
+   <img alt="accept_extend" src="https://github.com/user-attachments/assets/155013d9-bb85-4c68-98bb-547df02337a0" />
+   <img alt="after_extend" src="https://github.com/user-attachments/assets/683b0140-6a97-49b6-9ef0-7b92cb54f16b" /></p>
+</li>
+</ol>
+<p>Pendant l'examen, la réservation passe en état <strong>Prolongation demandée</strong>.
+   <img alt="reservation_prolongation" src="https://github.com/user-attachments/assets/3a2917b3-d922-4ba8-86d4-3b0fdbc1200e" /></p>
+<h3 id="57-actions-de-ladmin-sur-les-reservations">5.7 Actions de l'admin sur les réservations</h3>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Valider tous les équipements</strong></td>
+<td>Fait passer tous les équipements « En attente » à « Accepté »</td>
+</tr>
+<tr>
+<td><strong>Rejeter tous les équipements</strong></td>
+<td>Fait passer tous les équipements « En attente » à « Rejeté »</td>
+</tr>
+<tr>
+<td><strong>Valider tous les retours</strong></td>
+<td>Fait passer tous les équipements « Retour en attente » à « Terminé »</td>
+</tr>
+<tr>
+<td><strong>Approuver la prolongation</strong></td>
+<td>Met à jour la date de fin et confirme l'extension</td>
+</tr>
+<tr>
+<td><strong>Refuser la prolongation</strong></td>
+<td>Rejette la demande, la date reste inchangée</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="6-maintenance">6. Maintenance</h2>
+<p>La maintenance permet de bloquer un équipement pour des opérations d'entretien ou de calibration, l'empêchant d'être réservé pendant cette période.</p>
+<h3 id="61-planifier-une-maintenance-admin-uniquement">6.1 Planifier une maintenance <em>(Admin uniquement)</em></h3>
+<ol>
+<li>
+<p>Accédez à la fiche de l'unité concernée.
+   <img alt="maintenance_row" src="https://github.com/user-attachments/assets/06ef709f-12d2-4b2c-82cf-ee66d0d7a8b6" /></p>
+</li>
+<li>
+<p>Cliquez sur <strong>Maintenance</strong>.
+   <img alt="article_action_maintenance" src="https://github.com/user-attachments/assets/93625172-6cac-4fb2-bc80-a8309da261e2" /></p>
+</li>
+<li>
+<p>Renseignez<strong>Nom</strong>, <strong>Date de début</strong> et <strong>de fin prévue</strong> :
+   <img alt="maintenance_form" src="https://github.com/user-attachments/assets/450b4fd2-feed-437e-b4f6-7222f0d276f4" /></p>
+</li>
+<li>
+<p>Validez. L'équipement passe en état <strong>En maintenance</strong> et n'apparaît plus comme disponible pour les nouvelles réservations sur cette plage de dates.
+   <img alt="create_maintenance" src="https://github.com/user-attachments/assets/2b02908f-de7d-41be-a365-ce7526a94fc7" /></p>
+</li>
+</ol>
+<h3 id="62-modifier-une-maintenance">6.2 Modifier une maintenance</h3>
+<p>Depuis la fiche de l'unité, il est possible de modifier le nom ou les dates d'une maintenance existante tant qu'elle n'est pas terminée.
+   <img alt="edit_maintenance" src="https://github.com/user-attachments/assets/0dd36100-fe4a-4e6e-a189-8a1f2f5e4cbc" /></p>
+<h3 id="63-terminer-une-maintenance">6.3 Terminer une maintenance</h3>
+<ol>
+<li>Accédez à la fiche de l'unité.</li>
+<li>
+<p>Cliquez sur <strong>Terminer la maintenance</strong>.
+   <img alt="finish_maintenance" src="https://github.com/user-attachments/assets/0a24de80-0a1d-42f0-b9ae-36037b7ce584" /></p>
+</li>
+<li>
+<p>Confirmez la date de fin effective.</p>
+</li>
+<li>L'équipement repasse automatiquement en état <strong>Disponible</strong>.</li>
+</ol>
+<h3 id="64-visibilite-de-la-maintenance">6.4 Visibilité de la maintenance</h3>
+<ul>
+<li><strong>Tableau de bord admin :</strong> Un indicateur signale que l'unité est en maintenance.</li>
+<li><strong>Calendrier de disponibilité :</strong> La période de maintenance apparaît comme bloquée pour tous les utilisateurs.</li>
+<li>Une maintenance active empêche toute nouvelle réservation sur la période concernée.</li>
+</ul>
+<hr />
+<h2 id="7-gestion-des-utilisateurs-admin-uniquement">7. Gestion des utilisateurs <em>(Admin uniquement)</em></h2>
+<h3 id="ajouter-un-membre-a-un-laboratoire">Ajouter un membre à un laboratoire</h3>
+<ol>
+<li>Depuis le tableau de bord du labo, accédez à la section <strong>Utilisateurs</strong>.</li>
+<li>Recherchez l'utilisateur par e-mail ou nom.</li>
+<li>Cliquez sur <strong>Ajouter</strong> pour l'associer au labo.</li>
+</ol>
+<h3 id="attribuer-ou-retirer-des-droits-dadministration">Attribuer ou retirer des droits d'administration</h3>
+<p>Un admin de labo peut promouvoir un membre au rôle d'<strong>admin de labo</strong> ou lui retirer ce statut depuis la liste des membres.</p>
+<blockquote>
+<p><strong>Note :</strong> Seul un <strong>Super Admin</strong> peut promouvoir un utilisateur au rang de Super Admin.</p>
+</blockquote>
+<h3 id="desactiver-un-compte">Désactiver un compte</h3>
+<p>Un admin peut désactiver le compte d'un membre, lui retirant l'accès à l'application. Le compte reste dans la base de données et peut être réactivé à tout moment.</p>
+<hr />
+<h2 id="8-import-et-export-csv-admin-uniquement">8. Import et export CSV <em>(Admin uniquement)</em></h2>
+<h3 id="exporter-linventaire">Exporter l'inventaire</h3>
+<p><img alt="csv_dropdown" src="https://github.com/user-attachments/assets/df5e97d0-4367-4b5b-84b6-e513eee32e2f" /></p>
+<ol>
+<li>
+<p>Depuis le tableau de bord, cliquez sur <strong>Exporter CSV</strong>.
+   <img alt="export_csv" src="https://github.com/user-attachments/assets/bc4bee54-f78c-47f2-8278-6d402552ad1b" /></p>
+</li>
+<li>
+<p>Un fichier CSV est généré avec tous les équipements accessibles (séparateur point-virgule, encodage UTF-8).
+   <img alt="csv_list" src="https://github.com/user-attachments/assets/3b6b78ce-a42b-4d6e-9913-cbf31dcdfe16" /></p>
+</li>
+<li>
+<p>Le fichier contient 27 colonnes : numéro d'inventaire, état, localisation, spécifications techniques, etc.</p>
+</li>
+</ol>
+<h3 id="importer-des-equipements">Importer des équipements</h3>
+<ol>
+<li>
+<p>Téléchargez d'abord le <strong>fichier modèle</strong> pour respecter le format attendu.
+   <img alt="template_download" src="https://github.com/user-attachments/assets/4e1f4b7a-aa8e-4ad7-89e6-e96e4fd46f13" /></p>
+</li>
+<li>
+<p>Remplissez le fichier modèle avec vos données.</p>
+</li>
+<li>
+<p>Depuis le tableau de bord, cliquez sur <strong>Importer CSV</strong>.
+   <img alt="import_file" src="https://github.com/user-attachments/assets/103c9d1d-49eb-45e2-8694-e51eaaaee4a5" /></p>
+</li>
+<li>
+<p>Importez le fichier complété.
+<img alt="select_file_import" src="https://github.com/user-attachments/assets/6f89ca3d-94ea-4a9d-8aaf-1f27058e0e70" /></p>
+</li>
+</ol>
+<h4 id="regles-dimport">Règles d'import</h4>
+<table>
+<thead>
+<tr>
+<th>Colonne</th>
+<th>Valeurs acceptées</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lab</code></td>
+<td>Doit correspondre à un laboratoire existant</td>
+</tr>
+<tr>
+<td><code>statut</code></td>
+<td><code>available</code>, <code>unavailable</code>, <code>broken</code>, <code>toCheck</code>, <code>underMaintenance</code>, <code>other</code> (insensible à la casse)</td>
+</tr>
+<tr>
+<td><code>confirmation</code></td>
+<td><code>oui</code> ou <code>non</code></td>
+</tr>
+<tr>
+<td><code>lieu</code></td>
+<td>Doit correspondre à un lieu existant dans la base</td>
+</tr>
+<tr>
+<td><code>categorie</code> / <code>sous_categorie</code> / <code>type</code></td>
+<td>Doivent exister dans le catalogue</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Important :</strong> En cas d'erreur sur une ligne, l'import entier est annulé. Un fichier d'erreurs peut être téléchargé pour identifier les lignes problématiques.</p>
+<p><strong>Restriction :</strong> Un admin de labo ne peut importer que vers les labos qu'il administre.</p>
+</blockquote>
+<hr />
+<h2 id="9-codes-qr">9. Codes QR</h2>
+<p>Chaque équipement possède un <strong>code QR unique</strong> (basé sur un UUID). Ce code permet de retrouver rapidement la fiche de l'équipement en le scannant.</p>
+<h3 id="fonctionnalites">Fonctionnalités</h3>
+<ul>
+<li>
+<p><strong>Générer</strong> le code QR d'une unité au format PNG ou PDF
+   <img alt="qr_button" src="https://github.com/user-attachments/assets/1f3fc313-08a1-4742-b600-c8e0043291a7" /></p>
+</li>
+<li>
+<p><strong>Scanner</strong> un code QR via l'URL <code>/qr/scan/{uuid}</code> pour accéder directement à la fiche
+<img alt="qrcode-ACOU_2022_001" src="https://github.com/user-attachments/assets/0c6615ec-90ae-4792-81ae-6744b0ea37a8" /></p>
+</li>
+<li>
+<p><strong>Historique</strong> : chaque scan est enregistré (utilisateur, date, unité)
+   <img alt="qrcode_historique" src="https://github.com/user-attachments/assets/38540be5-c2c8-4fe9-8639-11bd1d56f919" /></p>
+</li>
+</ul>
+<p>L'accès à la gestion des codes QR est géré ainsi :</p>
+<blockquote>
+<p><strong>Super Admin :</strong> peut lister l'ensemble des codes QR de tous les laboratoires.
+<strong>Admin de labo :</strong> peut générer (PNG/PDF), créer et supprimer les codes QR des équipements de ses propres labos.
+<strong>Tous les utilisateurs connectés :</strong> peuvent scanner un code QR. La page affichée après scan s'adapte au rôle : les admins voient une vue enrichie, les utilisateurs une vue simplifiée.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Fonctionnalité</th>
+<th style="text-align: center;">Utilisateur</th>
+<th style="text-align: center;">Admin de labo</th>
+<th style="text-align: center;">Super Admin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scanner un QR code</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+</tr>
+<tr>
+<td>Générer PNG / PDF</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">✓ (son labo)</td>
+<td style="text-align: center;">✓</td>
+</tr>
+<tr>
+<td>Créer / supprimer</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">✓ (son labo)</td>
+<td style="text-align: center;">✓</td>
+</tr>
+<tr>
+<td>Lister tous les QR codes</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">✓</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="10-notifications-par-e-mail">10. Notifications par e-mail</h2>
+<p>L'application envoie automatiquement des e-mails dans les situations suivantes :</p>
+<table>
+<thead>
+<tr>
+<th>Événement</th>
+<th>Destinataire</th>
+<th>Contenu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Réservation créée</td>
+<td>Utilisateur</td>
+<td>Confirmation avec la liste des équipements réservés</td>
+</tr>
+<tr>
+<td>Équipement en retard (1er jour)</td>
+<td>Utilisateur</td>
+<td>Rappel de retour avec la liste des équipements non rendus</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Note :</strong> Le rappel de retard est envoyé <strong>une seule fois</strong>, le premier jour de dépassement, et non pas chaque jour.</p>
+</blockquote>
+<hr />
+<h2 id="annexe-glossaire">Annexe — Glossaire</h2>
+<table>
+<thead>
+<tr>
+<th>Terme</th>
+<th>Définition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Unité</strong></td>
+<td>Un exemplaire physique d'un équipement (identifié par son numéro d'inventaire)</td>
+</tr>
+<tr>
+<td><strong>Article</strong></td>
+<td>La définition produit (fabricant, modèle) dont dépendent une ou plusieurs unités</td>
+</tr>
+<tr>
+<td><strong>Laboratoire</strong></td>
+<td>Entité organisationnelle regroupant des équipements et des membres</td>
+</tr>
+<tr>
+<td><strong>Lieu</strong></td>
+<td>Emplacement physique où est stocké un équipement</td>
+</tr>
+<tr>
+<td><strong>Confirmation requise</strong></td>
+<td>Propriété d'un article indiquant qu'une approbation admin est nécessaire avant réservation</td>
+</tr>
+<tr>
+<td><strong>Prolongation</strong></td>
+<td>Demande d'extension de la date de fin d'une réservation en cours</td>
+</tr>
+<tr>
+<td><strong>Maintenance</strong></td>
+<td>Période planifiée pendant laquelle un équipement est indisponible pour réservation</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/malva-docs/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.action.edit", "navigation.top", "navigation.footer"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
